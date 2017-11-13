@@ -1,0 +1,32 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "sample api creation using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Rasapally@bitbucket.org/Rasapally/todolistapi.git"
+  },
+  "keywords": [
+    "sample",
+    "node",
+    "api"
+  ],
+  "author": "Prasad Rasapally",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Rasapally/todolistapi#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2",
+    "mongoose-auto-increment": "^5.0.1"
+  }
+}
